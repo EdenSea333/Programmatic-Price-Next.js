@@ -1,0 +1,122 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: Lato-Regular;
+  src: url("/fonts/Lato-Regular.ttf");
+}
+
+@font-face {
+  font-family: Montserrat-Regular;
+  src: url("/fonts/Montserrat-Regular.ttf");
+}
+
+@font-face {
+  font-family: Syne-Regular;
+  src: url("/fonts/Syne-Regular.ttf");
+}
+
+@font-face {
+  font-family: Syne-ExtraBold;
+  src: url("/fonts/Syne-Bold.ttf");
+}
+
+main {
+  background-color: #31249D;
+  color: white; 
+}
+
+body {
+  background-color: #0C1228;
+  color: white; 
+}
+
+.navbar {
+  background: linear-gradient(0deg, rgba(94, 94, 94, 0.01) 0%, rgba(94, 94, 94, 0.01) 100%), rgba(94, 94, 94, 0.01);
+  box-shadow: 0px 0px 59.01402px 10.50935px rgba(0, 0, 0, 0.31);
+  backdrop-filter: blur(2.0210278034210205px);
+}
+
+.navbutton {
+  border-radius: 5px;
+  background: var(--babab, linear-gradient(90deg, #A38DF5 36.02%, #FFDCAF 97.57%), #FFF);
+}
+
+.main{
+  background-image: url("/images/graphic.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.steps{
+  background-image: url("/images/bg2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.linegradient{
+  background: linear-gradient(90deg, #A38DF5 36.02%, #FFDCAF 97.57%), #FFF;
+}
+
+.technology{
+  background: #0C0E12;
+}
+
+.stepbuttons{
+  border-radius: 11.303px;
+border: 1.5px solid var(--babab, #FFF);
+background: linear-gradient(90deg, rgba(163, 141, 245, 0.00) 36.02%, rgba(255, 220, 175, 0.00) 97.57%);
+}
+
+.footer{
+  background: linear-gradient(0deg, rgba(94, 94, 94, 0.01) 0%, rgba(94, 94, 94, 0.01) 100%), rgba(94, 94, 94, 0.01);
+  box-shadow: 0px 0px 59.01402px 10.50935px rgba(0, 0, 0, 0.31);
+  backdrop-filter: blur(2.0210278034210205px);
+}
+
+.tokenomicstext {
+  backdrop-filter: blur(10px);
+}
+
+.gradient-text {
+  background: linear-gradient(45deg, #A38DF5, #FFDCAF);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.heading1{
+  font-family: Lato-Regular;
+}
+
+.bodytext{
+  font-family: Montserrat-Regular;
+}
+
+.syne{
+  font-family: Syne-Regular;
+}
+
+.syneeb{
+  font-family: Syne-ExtraBold;
+}
+
+.f_logo{
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+.f_pa{
+  padding-bottom: 50px;
+}
+
+.btn{
+  margin-bottom: 40px;
+}
+
+.f_social{
+  margin: 30px;
+}
+
